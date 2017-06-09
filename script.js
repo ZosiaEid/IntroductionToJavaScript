@@ -1,4 +1,4 @@
-var arraySelect = document.getElementsByTagName("select");
+var arraySelect = document.getElementsById("div");
 
 var element = document.getElementById("content");
 
