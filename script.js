@@ -1,13 +1,11 @@
-var arraySelect = document.getElementsByTagName("select");
-
 var element = document.getElementById("content");
 
-function dropdownStyles(){
-	var style = this.id;
-	var value = this.value;
+function dropdownStyles(event){
+	var style = event.target.id;
+	var value = event.target.value;
 	element.style[style] = value;
 }
 
-for( var i = 0; i < arraySelect.length; i++ ){
-	arraySelect[i].addEventListener( "change", dropdownStyles );
+for( var i = 0; i < prop.length; i++ ){
+	document.getElementById("prop").addEventListener( "change", dropdownStyles );
 }
