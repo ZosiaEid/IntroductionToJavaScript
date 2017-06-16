@@ -6,6 +6,5 @@ function dropdownStyles(event){
 	element.style[style] = value;
 }
 
-for( var i = 0; i < prop.length; i++ ){
-	document.getElementById("prop").addEventListener( "change", dropdownStyles );
-}
+document.getElementById("prop").addEventListener( "change", dropdownStyles );
+
